@@ -90,10 +90,9 @@ function draw() {
 //create a sprite
 //add a animation for gameover
 //scale the gameover image
-    var gameOver
-      gameOver.addAnimation("gameOver.png",gameOverImg)
-        
-     
+    gameOver= createSprite(200,200)
+     gameOver.addImage(gameOverImg)
+        gameOver.scale=0.5
     }
   }
   
